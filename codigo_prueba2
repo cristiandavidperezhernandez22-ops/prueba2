@@ -1,13 +1,13 @@
-def veces(veces:int)->str:
+def lista_hasta(max:int)->str:
     """
-    funciona para crear una lista
-    en diferentes lineas de los
-    numeros del 1 al indicado.
+    funciona para crear una lista de
+    los numeros del 1 al especificado.
     """
     numeros = []
-    for i in range(veces):
+    for i in range(max):
         numeros.append(i+1)
     return numeros
 
-a = int(input("veces?: \n"))
-print(veces(a))
+a = int(input("numero maximo?: \n"))
+print(lista_hasta(a))
+help()
