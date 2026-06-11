@@ -1,3 +1,3 @@
-a = "string"
-for letra in a:
-    print(a)
+a = int(input("ingrese el numero de repeticiones: \n"))
+for veces in range(a):
+    print(veces +1)
