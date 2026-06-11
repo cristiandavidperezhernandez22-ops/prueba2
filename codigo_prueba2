@@ -1,3 +1,6 @@
-a = int(input("ingrese el numero de repeticiones: \n"))
-for veces in range(a):
-    print(veces +1)
+def veces(veces:int):
+    for i in range(veces):
+        print(i +1)
+
+a = int(input("veces?: \n"))
+veces(a)
