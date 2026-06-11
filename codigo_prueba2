@@ -1,4 +1,4 @@
-def lista_hasta(max:int)->str:
+def lista_hasta(max:int)->list:
     """
     funciona para crear una lista de
     los numeros del 1 al especificado.
@@ -10,4 +10,4 @@ def lista_hasta(max:int)->str:
 
 a = int(input("numero maximo?: \n"))
 print(lista_hasta(a))
-help()
+help(lista_hasta)
