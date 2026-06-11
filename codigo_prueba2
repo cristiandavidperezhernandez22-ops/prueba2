@@ -1,0 +1,3 @@
+a = "string"
+for letra in a:
+    print(a)
